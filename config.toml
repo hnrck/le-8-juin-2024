@@ -5,7 +5,7 @@ theme = "coming-soon"
 [params]
     title = 'À Paris 3, le 8 juin 2024'
     description = 'À 10h à la Mairie de Paris Centre, 2 rue Eugène Spuller, 75003 Paris'
-    favicon = 'icons/favicon.ico'
+    favicon = 'image/icons/favicon.ico'
     message = 'Eun-Bee & Henrick'
     release = '2024-06-08T10:00:00'
     background = 'image/background/paris-3.jpg'
