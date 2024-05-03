@@ -1,0 +1,23 @@
+; Zone file for le-8-juin-2024.paris
+$TTL 3600
+@   IN  SOA     ns1.gandi.net. hostmaster.gandi.net. (
+                2024050301  ; serial
+                10800       ; refresh (3 hours)
+                3600        ; retry (1 hour)
+                604800      ; expire (1 week)
+                10800       ; minimum (3 hours)
+              )
+; Define the nameservers
+@   IN  NS      ns1.gandi.net.
+@   IN  NS      ns2.gandi.net.
+@   IN  NS      ns3.gandi.net.
+
+; Define A records for GitHub Pages
+@   IN  A       185.199.108.153
+@   IN  A       185.199.109.153
+@   IN  A       185.199.110.153
+@   IN  A       185.199.111.153
+
+; Define CNAME for www
+www IN  CNAME   hnrck.github.io.
+
